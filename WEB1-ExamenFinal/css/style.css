@@ -1,0 +1,98 @@
+body {
+    border-top: 11px #ededed solid;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#bloqueColor {
+    background-color: #e2e0e0;
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* Estrutura del Sitio */
+
+.contenido {
+    width: 900px;
+}
+
+.wraper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#logo img {
+    margin-left: 65px;
+    width: 353px;
+}
+
+/* Menu */
+
+#lista {
+    list-style: none;
+    margin: 34px 0 0 0;
+}
+
+.bordeLista {
+    border-bottom: 6px #676766 solid;
+}
+
+#lista li {
+    float: left;
+}
+
+#primero {
+    margin-left: 43px;
+}
+
+#lista li +li {
+    margin-left: 52px;
+}
+
+#lista a {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #676766;
+    text-decoration: none;
+}
+
+/*Bloque info*/
+.info h2 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #d3001c;
+    margin-left: 60px;
+}
+
+.info p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin-left: 60px;
+}
+
+.info h3 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #8c0013;
+    margin-left: 60px;
+}
+
+#bloqueColor p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #d3001c;
+    margin: 0;
+}
+
+.espaciado {
+    padding: 32px 342px 31px 342px;
+}
