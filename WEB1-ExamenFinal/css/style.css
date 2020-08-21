@@ -85,15 +85,16 @@ body {
     margin-left: 60px;
 }
 
-.bloques {
-    display: inline-block;
+.bloques + .bloques {
+    margin-left: 15px;
 }
-
 
 .bloques {
     background-color: #f5f3f3;
     position: relative;
     width: 440px;
+    float: left;
+    margin-left: 40px;
 }
 
 .bloques h4 {
@@ -101,6 +102,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #707070;
+    margin-left: 20px;
 
 }
 
@@ -108,29 +110,31 @@ body {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #313131;
-    
+    margin-left: 20px;
 }
 
 .posicion {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #313131;
-
+    position: absolute;
+    top: 380px;
+    right: 28px;
+    bottom: 18px;
 }
+
 .posicion a {
     text-decoration: none;
     color: #d3001c;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin-left: 5px;
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
 }
 
 .espacios {
-padding: 0 0 116px 0;
+padding: 0 0 63px 0;
 }
+
 .max {
     width: 253px;
     display: inline-block;
@@ -140,11 +144,28 @@ padding: 0 0 116px 0;
     width: 373px;
 }
 
- 
+.maximos {
+    width: 373px;
+    padding-bottom: 148px;
+}
+
+.maxi {
+    width: 226px;
+    display: inline-block;
+}
+
+.tama {
+    width: 381px;
+    padding-bottom: 85px;
+}
+
 p + img {
     margin-left: 52px;
 }
 
+.maxi  + img {
+    margin-left: 15px;
+}
 
 #bloqueColor p {
     font-family: Arial, Helvetica, sans-serif;
@@ -154,6 +175,13 @@ p + img {
     margin: 0;
 }
 
-.espaciado {
-    padding: 32px 342px 31px 342px;
+.espaciado p{
+    padding: 32px 304px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#botton {
+    padding-top: 60px;
+    padding-bottom: 46px;
 }
